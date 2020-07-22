@@ -11,22 +11,30 @@
   <title>Holly McMahon</title>
 </head>
 <body style="background-image: url(https://images.unsplash.com/photo-1594734415578-00fc9540929b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80); background-size: cover; background-repeat: no-repeat;">
-  <div>
+  <div class="topnav container">
+  <a class="active" href="#home">home</a>
+  <a href="#about">about</a>
+  <a href="#projects">projects</a>
+  <a href="#contact">contact</a>
+</div>
+  <div class="header">
     <div class="container">
       <h1>Holly McMahon</h1>
-      <h3>Fullstack Developer</h3>
+      <h3>Fullstack Developer ✨</h3>
     </div>
   </div>
-    <div class="container">
-      <h4>About me.</h4>
+    <div id="about" class="container">
+      <h4>About me</h4>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias mollitia corporis porro vel, quisquam quas eum commodi, iste laudantium asperiores qui neque, doloribus at voluptatem in ipsam ullam culpa aliquid.</p>
     </div>
     <div class="container">
-      <h4>Projects</h4>
+      <div id="projects" class="projects">
+        <h4>Projects</h4>
+       </div>
   <div class="row">
   <div class="column">
     <div class="card">
-      <h5><a href="https://github.com/Vivini/okada">Okada</a></h5>
+      <h5><a href="https://github.com/Vivini/okada" target="_blank">Okada</a></h5>
       <div class="card-image">
       <img src="https://picsum.photos/200" alt="app homepage">
       </div>
@@ -37,7 +45,7 @@
   </div>
   <div class="column">
     <div class="card">
-      <h5><a href="https://github.com/Vivini/Our_Hub">OurHub</a></h5>
+      <h5><a href="https://github.com/Vivini/Our_Hub" target="_blank">OurHub</a></h5>
       <div class="card-image">
       <img src="https://picsum.photos/200" alt="app homepage">
     </div>
@@ -47,13 +55,32 @@
     </div>
   </div>
 </div>
-      </div>
-     <div>
-      <ul class="list-inline">
-        <li><a href="https://www.instagram.com/hollymcm/" title="instagram"><i class="fab fa-instagram"></i></a></li>
-        <li><a href="https://github.com/hollymcm" title="github"><i class="fab fa-github-square"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/hollymcm/" title="linkedin"><i class="fab fa-linkedin"></i></a></li>
-      </ul>
+    </div>
+      <div class="container">
+        <div id="contact">
+          <h4>Contact</h4>
+          <div class="container">
+            <form action="https://formspree.io/xjvajwbw" method="POST">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="lname">Last Name</label>
+              <label>Your email:</label>
+              <input type="text" name="_replyto">
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              <button type="submit" value="Send">Send</button>
+
+            </form>
+          </div>
+          <div>
+            <ul class="list-inline">
+              <li><a href="https://www.instagram.com/hollymcm/" target="_blank" title="instagram"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="https://github.com/hollymcm" target="_blank" title="github"><i class="fab fa-github-square"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/hollymcm/" target="_blank" title="linkedin"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
     </div>
 </body>
 </html>
