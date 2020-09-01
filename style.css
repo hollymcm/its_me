@@ -103,12 +103,10 @@ h5 {
   padding-bottom: 20px;
 }
 
-label, input {
-    /* In order to define widths */
-    display: inline-block;
+input, textarea {
+  width: 100%;
 }
 
-form {
-    display: flex;
-    justify-content: : center;
+button {
+  margin-left: 18px;
 }
