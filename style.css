@@ -76,6 +76,8 @@ h5 {
 
 .card-image {
   padding-top: 20px;
+  max-width: 100%;
+  height: auto;
 }
 
 .card {
@@ -109,8 +111,23 @@ h5 {
 
 input, textarea {
   width: 100%;
+  margin-left: 10px;
 }
 
 button {
-  margin-left: 18px;
+  margin-left: 29px;
 }
+
+ul {
+  margin-top: 10px;
+  margin-left: 30px
+}
+
+img {
+  border: 0.5px solid;
+}
+
+.okada {
+    padding: 5px;
+}
+
